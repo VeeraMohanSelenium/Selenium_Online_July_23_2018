@@ -1,6 +1,7 @@
 package coreJava;
 
-public class Day2Arrays {
+public class Day2Arrays
+{
 
 	public static void main(String[] args) {
 		// non- primitive data types

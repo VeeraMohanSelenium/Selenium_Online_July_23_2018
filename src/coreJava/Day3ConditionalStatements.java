@@ -1,6 +1,7 @@
 package coreJava;
 
-public class Day3ConditionalStatements {
+public class Day3ConditionalStatements 
+{
 
 	public static void main(String[] args) {
 
