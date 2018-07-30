@@ -8,6 +8,15 @@ public class Overrideing extends Polymarphism  {
 	//Static methods over rideing is not possible :: Static methods are bounded with class name
 	//Constructor over riding is not possible because  of constructor is depends on Class name
 	
+	//To call child class constructer to parent class constructer by using "super()"
+	//super key word 
+	//The jvm will be create the one default constructor u don't have any constructor in child class
+	
+	
+	
+	
+	
+	
 	
 	public void test() {
 		System.out.println("I am test method Over riding");
@@ -54,7 +63,7 @@ public class Overrideing extends Polymarphism  {
 		pr.m1();
 		pr.m2();
 		pr.test();
-		pr.test("STring");
+		pr.test("String");
 		
 		
 		//
