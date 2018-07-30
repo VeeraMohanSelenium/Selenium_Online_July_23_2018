@@ -1,19 +1,20 @@
 package practice_july;
 
-public class program1 
+public class Evennumber_1to100
 {
-
-	int a  = 2;
-	int b;
-	public int multiplication()
+	public int evennumbers()
 	{
-		for (int i=1; i<=10; i++)
+		for (int i=1; i<=100; i++)
 		
-		if (a==2)
 		{
+			
+			if (i>1)
+			{
 
-		 b = 2 * i ;
-		 System.out.println("2 * " +i + " = " +b );
+			int j = 0;
+		 System.out.println("EvenNumbers are" +i );
+		 
+		 j = i+2;
 	    
 		}
 
@@ -33,7 +34,3 @@ public class program1
 		
 		}
 	}
-	
-
-
-
