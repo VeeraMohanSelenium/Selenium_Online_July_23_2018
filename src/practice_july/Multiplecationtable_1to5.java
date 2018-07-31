@@ -6,7 +6,7 @@ public class Multiplecationtable_1to5 {
 
 	static int b;
 
-	public  void multiplication()
+	  public void multiplication()
 
 	{
 		// To Accept the input from the keyboard.

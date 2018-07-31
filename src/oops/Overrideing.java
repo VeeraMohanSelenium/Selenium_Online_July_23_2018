@@ -13,7 +13,10 @@ public class Overrideing extends Polymarphism  {
 	//The jvm will be create the one default constructor u don't have any constructor in child class
 	
 	
-	
+	Overrideing()
+	{
+		super(10);
+	}
 	
 	
 	
