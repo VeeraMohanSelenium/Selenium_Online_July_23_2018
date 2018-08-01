@@ -1,7 +1,10 @@
 package practice_july;
 
 public class Evennumber_1to100
+
 {
+
+int b;
 	public int evennumbers()
 	{
 		for (int i=1; i<=100; i++)
@@ -15,10 +18,10 @@ public class Evennumber_1to100
 		 System.out.println("EvenNumbers are" +i );
 		 
 		 j = i+2;
-	    
+			}
 		}
 
-		 return b;
+		return b;
 		
 	}
 		
