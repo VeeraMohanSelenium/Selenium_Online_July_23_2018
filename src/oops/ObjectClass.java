@@ -32,6 +32,9 @@ public class ObjectClass {
 		//5. Hybrid inheritance
 
 		// 2. Polymarphism
+		
+		
+		
 		// 3. Interface
 		// 4. Abstraction
 		// 5. Encapulation
