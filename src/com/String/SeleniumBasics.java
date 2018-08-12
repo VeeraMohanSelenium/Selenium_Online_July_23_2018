@@ -1,4 +1,4 @@
-package com.WebDriverBasics;
+package com.String;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
