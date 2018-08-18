@@ -49,6 +49,8 @@ public class SeleniumLocaters {
 		// 2.1 Custimized X-path
 		// Custimizex Xpath::  //div[@id='footer']/div[1]/a
 		
+		
+		
 		// //div[@id='social-icons']/a/img
 			
 		
