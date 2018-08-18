@@ -45,20 +45,18 @@ public class SeleniumWebDriverAPI {
 		Actions ac = new Actions(driver);
 		Thread.sleep(3000);
 		WebElement ele = driver.findElement(By.xpath("//b[text()='Leave']"));
-		
-		//Mouse over
-		ac.moveToElement(ele).build().perform();
-	
 
-		WebElement el=driver.findElement(By.xpath("//a[text()='Apply']"));
-		
-		//Right Click()
+		// Mouse over
+		ac.moveToElement(ele).build().perform();
+
+		WebElement el = driver.findElement(By.xpath("//a[text()='Apply']"));
+
+		// Right Click()
 		ac.contextClick(el).build().perform();
-		
-		
+
 		Thread.sleep(3000);
-		
-		//keyboard actions
+
+		// keyboard actions
 		ac.sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ARROW_DOWN).sendKeys(Keys.ENTER).build().perform();
 
 	}
