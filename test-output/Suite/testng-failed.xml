@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testNGPackage.Class2">
+        <methods>
+          <include name="launching"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- testNGPackage.Class2 -->
+      <class name="testNGPackage.TestNGAnnations">
+        <methods>
+          <include name="BM"/>
+          <include name="AM"/>
+          <include name="BS"/>
+          <include name="BC"/>
+          <include name="AT"/>
+          <include name="BT"/>
+          <include name="AS"/>
+          <include name="AC"/>
+        </methods>
+      </class> <!-- testNGPackage.TestNGAnnations -->
+      <class name="testNGPackage.TestngParameter">
+        <methods>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- testNGPackage.TestngParameter -->
+      <class name="testNGPackage.FirstTestNGCLASS">
+        <methods>
+          <include name="close"/>
+          <include name="launchingApplication"/>
+        </methods>
+      </class> <!-- testNGPackage.FirstTestNGCLASS -->
+      <class name="testNGPackage.Class1">
+        <methods>
+          <include name="launching"/>
+          <include name="CloseApp"/>
+        </methods>
+      </class> <!-- testNGPackage.Class1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
